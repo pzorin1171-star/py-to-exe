@@ -2,6 +2,6 @@ services:
   - type: web
     name: py-to-exe
     runtime: docker
-    repo: https://github.com/yourusername/py-to-exe-service
+    repo: https://py-to-exe.onrender.com
     branch: main
     dockerfilePath: ./Dockerfile

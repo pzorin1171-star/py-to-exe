@@ -1,0 +1,7 @@
+services:
+  - type: web
+    name: py-to-exe
+    runtime: docker
+    repo: https://github.com/yourusername/py-to-exe-service
+    branch: main
+    dockerfilePath: ./Dockerfile
